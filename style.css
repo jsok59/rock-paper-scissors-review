@@ -1,0 +1,55 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.label-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 36px;
+    text-align: center;
+}
+
+.choice-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+
+
+.human-choice-box, .computer-choice-box {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+
+.selection-container {
+
+    display: flex;
+    gap: 30px;
+
+}
+
+
+.selection-container > button {
+    margin-top: 60px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
